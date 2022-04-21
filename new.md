@@ -1,2 +1,2 @@
-something.com
-[link]a.com
+something
+[text]gerirgjeprgjpg(https://something.com)
