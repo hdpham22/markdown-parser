@@ -102,7 +102,7 @@ public class MarkdownParseTest {
         ArrayList<String> links = MarkdownParse.getLinks(content);
         boolean empty = links.isEmpty();
 
-        assertEquals(true, empty);
+        assertEquals(false, empty);
     }
 
     
