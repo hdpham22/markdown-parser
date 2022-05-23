@@ -118,7 +118,7 @@ public class MarkdownParseTest {
 
     @Test
     public void testGetLinks10() throws IOException {
-        Path fileName = Path.of("test1.md");
+        Path fileName = Path.of("test2.md");
         String content = Files.readString(fileName);
         ArrayList<String> links = MarkdownParse.getLinks(content);
         List<String> expected = List.of("a.com", "a.com(())", "example.com"
@@ -129,7 +129,7 @@ public class MarkdownParseTest {
 
     @Test
     public void testGetLinks11() throws IOException {
-        Path fileName = Path.of("test1.md");
+        Path fileName = Path.of("test3.md");
         String content = Files.readString(fileName);
         ArrayList<String> links = MarkdownParse.getLinks(content);
         List<String> expected = List.of("a.com", "a.com(())", "example.com"
